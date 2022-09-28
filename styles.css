@@ -177,8 +177,18 @@ footer {
 
 .r--side {
     border-left: 1px solid #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
 }
 
+.pr--icon {
+    margin-left: 10px;
+    height: 18px;
+    width: 18px;
+    color: inherit;
+}
 
 .product--image {
     height: 482.484px;
@@ -198,6 +208,11 @@ footer {
     font-weight: 500;
     display: flex;
     justify-content: space-between;
+    border: 1px solid #D9D9D9;
+}
+
+.big {
+    font-size: 1.9em;
 }
 
 .store--footer {
